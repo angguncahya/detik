@@ -1,0 +1,44 @@
+srs
+1.
+srs-bedk-01	melakukan login ke dalam sistem
+srs-bedk-02	melakukan logout
+
+2. Mengelola kategori lowongan pekerjaan
+srs-bedk-03	dapat menambahkan kategori lowongan pekerjaan
+srs-bedk-04	dapat menampilkan kategori lowongan pekerjaan
+srs-bedk-05	dapat menghapus kategori lowongan pekerjaan
+srs-bedk-06	dapat melakukan pengeditan kategori lowongan pekerjaan
+
+3. Mengelola lowongan pekerjaan
+srs-bedk-07	dapat menambahkan lowongan pekerjaan
+srs-bedk-08	dapat menampilkan lowongan pekerjaan
+srs-bedk-09	dapat menghapus lowongan pekerjaan
+srs-bedk-10	dapat melakukan pengeditan lowongan pekerjaan
+
+4. Mengelola detail lowongan pekerjaan
+srs-bedk-11	dapat menambahkan detail lowongan pekerjaan
+srs-bedk-12	dapat menampilkan detail lowongan pekerjaan
+srs-bedk-13	dapat menghapus detail lowongan pekerjaan
+srs-bedk-14	dapat melakukan pengeditan detail lowongan pekerjaan
+
+5.
+srs-bedk-15	dapat menampilkan daftar pelamar pekerjaan
+
+6.
+srs-bedk-16	dapat mendownload CV pelamar
+
+7.
+srs-bedk-17	dapat melakukan perubahan status tahapan test pelamar
+
+8. mengelola template email
+srs-bedk-18	dapat menampilkan template email
+srs-bedk-19	dapat melakukan pengeditan template email
+
+9.
+srs-bedk-20	dapat mengirimkan notifikasi email sesuai dengan status tahapan test
+
+10. mengelola HR Manager
+srs-bedk-21	dapat menampilkan daftar HR Manager
+srs-bedk-22	dapat melakukan penambahan data HR Manager
+srs-bedk-23	dapat melakukan pengeditan data HR Manager yang sedang tidak aktif
+srs-bedk-24	dapat menghapus data HR Manager yang sedang tidak aktif 

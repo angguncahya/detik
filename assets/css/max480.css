@@ -1,0 +1,137 @@
+@media (max-width: 480px) {
+  h1,
+  h2
+  {
+    font-size: 26px;
+  }
+
+  video.vide {
+  position: absolute;
+  top: 10%; 
+  left: 0;
+  width: 100%;
+  }
+  .shadow{
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%; 
+  }
+  header .header-content .header-content-inner h2{
+    top: 0;
+    font-size: 32px;
+
+  }
+  header .header-content .header-content-inner hr {
+    margin: 16px auto;
+  }
+  hr.hr-1{
+  border: none;
+  height: 3px;
+  width: 100px;
+  border-radius: 5px;
+  background: #007fee;
+  }
+  header .header-content .header-content-inner p{
+    font-size: 12px;
+  }
+  .container-arrow {
+    top: 0px; 
+  }
+  .arrow{
+  position: relative;
+  top: 30%;
+  margin: 0 0px;
+  animation-name: myframes;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate/*reverse,normal*/;
+  animation-fill-mode: forwards/*backward, none*/;
+  animation-play-state: running;
+}
+  .service-karir{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.list-title{
+  /*text-align: center; */
+}
+
+.pagination-padding{
+  padding-top: 32px!important;
+  padding-bottom: 32px!important;
+}
+.pagination{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.pagination > li{
+  display: inline;
+}
+.pagination > li > a.hover-black{
+  transition: background-color .25s,color .15s,box-shadow .15s,opacity .25s,filter .25s,border .15s;
+}
+.pagination > li > a{
+  text-decoration: none;
+  color: #000;
+  float: left;
+  padding: 8px 16px;
+  border-radius: 0;
+}
+.pagination > li a:hover,.pagination > li a:active{
+  background-color: #000;
+  color: #fff;
+}
+.container-arrow{
+  position: relative;
+  top: 100px;
+}
+header .header-content .header-content-inner h5 {
+  line-height: 1.5;
+}
+ul.list-inline.social-buttons li a {
+  width: 10%;
+  color: #fff;
+}
+ul.list-inline.social-buttons li a:hover {
+  color: #007fee;
+}
+div.input-group{
+  width: 300px;
+}
+.list-group-item-heading h4{
+  color: #rgb(73, 73, 73);
+}
+.no-margin{
+  margin: 0;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background-color: #5079ff;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background-color: #5079ff;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #222222;
+}
+
+/*progress bar*/
+/*body{ margin-top:20px; }*/

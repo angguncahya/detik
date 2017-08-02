@@ -1,0 +1,20 @@
+/*FORM UNTUK STYLE UPLOAD*/
+
+#inputfile{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4/5;
+}
+.form-group{
+    font-family: 'Montserrat', sans-serif;
+}
+.quote{
+	margin-top: 80px;
+	margin-left: 200px;
+	float: right;
+}
+.tagline{
+	color: #ffffff;
+}

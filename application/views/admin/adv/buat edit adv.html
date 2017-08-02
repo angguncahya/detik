@@ -1,0 +1,123 @@
+<!-- <fieldset> 
+                        <legend>Add Avertisements</legend>
+                        <div class="form-group">
+                          <div class="col-lg-10">
+
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Nama Detail Job</label>
+                            <input id="inputEmail" type="text" name="jobdetail_name" placeholder="Nama Detail Job" class="form-control" required="true">
+                          </div>
+
+                        <div class="col-lg-10">
+                          <label for="inputEmail" class="control-label">Tipe Detail Job</label>
+                          <select class="form-control" id="sel1" name="nama_tipe" required="true">
+                            <option value="">Tipe Detail job</option>
+                            <?php/* foreach($kategori as $k){
+                              echo "<option value='".$k->nama_tipe."'>".$k->nama_tipe."</option>"; }
+                          echo "</select>"
+                              ?>
+                        </div>
+                        <div class="col-lg-10">
+                          <label for="inputEmail" class="control-label">Sub Kategori Detail Job</label>
+                          <select class="form-control" id="sel1" name="job_name" required="true">
+                            <option value="">Sub Kategori Detail Job</option>
+                            <?php foreach($subkategori as $s){
+                              echo "<option value='".$s->job_name."'>".$s->job_name."</option>"; }
+                          echo "</select>"
+                              ?>
+                        </div>
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Deskripsi Detail Job</label>
+                            <input id="inputEmail" type="text" name="jobdetail_desc" placeholder="Deskripsi Detail Job" class="form-control" required="true">
+                          </div>
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Status Detail Job</label>
+                            <input id="inputEmail" type="date" name="jobdetail_status" placeholder="Status Detail Job" class="form-control" required="true">
+                          </div>
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Persyaratan Detail Job</label>
+                            <input id="inputEmail" type="text" name="jobdetail_persyaratan" placeholder="Persyaratan Detail Job" class="form-control" required="true">
+                          </div>
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Tugas Detail Job</label>
+                            <input id="inputEmail" type="text" name="jobdetail_tugas" placeholder="Tugas Detail Job" class="form-control" required="true">
+                          </div>
+                        <div class="col-lg-10">
+                          <label for="inputEmail" class="control-label">Tampil</label>
+                          <select class="form-control" id="sel1" name="jobdetail_is_pagejobdetail" required="true">
+                            <option value="">Tampil</option>
+                              <option value='Y'>Tampil</option>";
+                              <option value='N'>Tidak Tampil</option>";
+                          </select>
+                        </div>
+
+                        <div class="form-group">
+                          <div class="col-lg-10 col-lg-offset-2">
+                            <a href="<?php echo base_url('adv/advertisement'); ?>" class="btn btn-default">Cancel</a>
+                             <button type="reset" class="btn btn-default">Cancel</button> -->
+                            <!--<button type="submit" class="btn btn-primary">Submit</button>
+                          </div>
+                        </div>
+                      </fieldset> --> 
+
+                      <fieldset>
+                        <legend>Add Avertisements</legend>
+                        <div class="form-group">
+                          <div class="col-lg-10">
+
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Nama Detail Job</label>
+                            <input id="inputEmail" type="text" name="jobdetail_name" value="<?php echo $jobdetail->jobdetail_name ?>" placeholder="Nama Detail Job" class="form-control" required="true">
+                          </div>
+
+                        <div class="col-lg-10">
+                          <label for="inputEmail" class="control-label">Tipe Detail Job</label>
+                          <select class="form-control" id="sel1" name="nama_tipe" value="<?php echo $jobdetail->nama_tipe ?>" required="true">
+                            <option value="<?php echo $jobdetail->nama_tipe ?>"><?php echo $jobdetail->nama_tipe ?></option>
+                            <?php foreach($kategori as $k){
+                              echo "<option value='".$k->nama_tipe."'>".$k->nama_tipe."</option>"; }
+                          echo "</select>"
+                              ?>
+                        </div>
+                        <div class="col-lg-10">
+                          <label for="inputEmail" class="control-label">Sub Kategori Detail Job</label>
+                          <select class="form-control" id="sel1" name="job_name" required="true">
+                            <option value="<?php echo $jobdetail->job_name ?>"><?php echo $jobdetail->job_name ?></option>
+                            <?php foreach($subkategori as $s){
+                              echo "<option value='".$s->job_name."'>".$s->job_name."</option>"; }
+                          echo "</select>"
+                              ?>
+                        </div>
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Deskripsi Detail Job</label>
+                            <input id="inputEmail" type="text" name="jobdetail_desc" placeholder="Deskripsi Detail Job" class="form-control" value="<?php echo $jobdetail->jobdetail_desc ?>" required="true">
+                          </div>
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Status Detail Job</label>
+                            <input id="inputEmail" type="date" name="jobdetail_status" placeholder="Status Detail Job" class="form-control" value="<?php echo $jobdetail->jobdetail_status ?>" required="true">
+                          </div>
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Persyaratan Detail Job</label>
+                            <input id="inputEmail" type="text" name="jobdetail_persyaratan" placeholder="Persyaratan Detail Job" class="form-control" value="<?php echo $jobdetail->jobdetail_persyaratan ?>" required="true">
+                          </div>
+                          <div class="col-lg-10">
+                            <label for="inputEmail" class="control-label">Tugas Detail Job</label>
+                            <input id="inputEmail" type="text" name="jobdetail_tugas" placeholder="Tugas Detail Job" class="form-control" value="<?php echo $jobdetail->jobdetail_tugas ?>" required="true">
+                          </div>
+                        <div class="col-lg-10">
+                          <label for="inputEmail" class="control-label">Tampil</label>
+                          <select class="form-control" id="sel1" name="jobdetail_is_pagejobdetail" required="true">
+                            <option value="<?php echo $jobdetail->jobdetail_is_pagejobdetail ?>"><?php echo ($jobdetail->jobdetail_is_pagejobdetail == "Y") ? "Tampil" : "Tidak Tampil"; ?></option>
+                                <option value="Y">Tampil</option>
+                                <option value="N">Tidak Tampil</option>
+                          </select>
+                        </div>
+
+                        <div class="form-group">
+                          <div class="col-lg-10 col-lg-offset-2">
+                            <a href='<?php echo base_url('adv/advertisement'); ?>' class="btn btn-default">Cancel</a>
+                            <!-- <button type="reset" class="btn btn-default">Cancel</button> -->
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </div>
+                        </div>
+                      </fieldset>

@@ -1,0 +1,23 @@
+@media (max-width: 414px) {
+   .dom {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+  }
+  .texty{
+    display: none;
+  } 
+  .service-karir {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: default;
+    height: auto;
+    padding-bottom: 10px;
+    background: #fff;
+    border-radius: 100px; 
+    padding-top: 10px;
+    padding-left: 0px;
+    min-width: 200px;
+}

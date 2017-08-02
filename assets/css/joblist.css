@@ -1,0 +1,257 @@
+
+
+h1,
+h5,
+h6
+{
+  color: white;
+}
+body h2{ 
+  margin-top: 0px;
+}
+.quote{
+  margin-top: 80px;
+  margin-left: 200px;
+  float: right;
+}
+.quote-content{
+  position: relative;
+  top: 70px;
+  max-width: 500px;
+  left: 200px;
+}
+.img-quote{
+  width: 15%;
+  height: 5%
+}
+.quote h5{
+  line-height: 2;
+}
+.quote h6{
+  font-size: 8px;
+}
+/*back page*/
+.text-back{
+  margin: 20px 0;
+}
+.text-back a{
+  color: #007fee;
+  margin:auto 0;
+  font-size: 10pt;
+}
+.text-back a:hover{
+  color: #007fee;
+}
+/*HEADER*/
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/background-karir.png");
+    background-color: rgba(0,0,0,0.6);
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-container:hover .image-caption{
+  opacity: 1;
+}
+.image{
+  width: 250px;
+  height: 160px;
+  overflow: hidden;
+}
+.fa-margin{
+  margin-left: 10px;
+}
+.button-link{
+  padding: 10px 20px;
+  border: 1px solid #007fee;
+}
+.image-caption {
+  color: white;
+  margin-right: 100px; 
+  opacity: 0;
+  display: block;
+  background: rgba(10, 64, 134, 0.6);
+  position: absolute;
+  bottom: 0;
+  width: 85%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+.image-caption .image-caption-content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image .image-caption .image-caption-content .title-faded,
+.image .image-caption .image-caption-content .title-faded {
+  font-family: 'Roboto', sans-serif;
+  padding: 0 15px;
+}
+.image:focus {
+  outline: none;
+}
+.botton{
+  color: #007fee;
+  font-size: 12px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  border: 1px solid #007fee;
+  background-color: white;
+}
+.botton:hover{
+  color: #fff;
+  background: #007fee;
+}
+.content-list{
+  margin-bottom: 60px;
+}
+.migrasi{
+  margin-top: 7px;
+}
+div.input-group{
+  float: right;
+}
+
+
+/*-------------------------------*/
+
+
+@media (max-width: 992px) {
+  .quote{
+    margin-left: 20px;
+  }
+  .image{
+    width: 250px;
+    height: 160px;
+    overflow: hidden;
+  }
+}
+
+/*-------------------------------*/
+
+
+@media (max-width: 1200px) {
+  .quote{
+    margin-left: 100px;
+  }
+  .image{
+    width: 250px;
+    height: 160px;
+    overflow: hidden;
+  }
+}
+
+/*-------------------------------*/
+
+
+@media (max-width: 700px) {
+  .quote{
+    margin-top: 65px;
+    margin-left: auto;
+    text-align: center;
+    float: none;
+  }
+  .content-list h2{
+    font-size: 26px;
+    margin-top: 20px;
+  }
+  .content-list p{
+    font-size: 14px; 
+    margin-bottom: 20px;
+  } 
+  .botton{
+    color: #007fee;
+    font-size: 14px;
+    padding: 5px 14px;
+    border-radius: 50px;
+    border: 1px solid #007fee;
+    background-color: white;
+  }
+  .migrasi{
+    margin-top: 0px;
+  }
+  .quote img{
+    display: none;
+  }
+  .parallax{
+    min-height: 230px; 
+  }
+  .backto{
+    display: none;
+  }
+
+  .backarr{
+    padding: 10px 12px 10px 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+  }
+  .search-for{
+    width: 10%;
+  }
+  div.input-group{
+    width: 250px;
+    float: right;
+  }
+  .image{
+    width: 250px;
+    height: 160px;
+    overflow: hidden;
+  }
+}
+
+/*-------------------------------*/
+
+
+@media (max-width: 600px) {
+  .quote{
+    margin-left: auto;
+    text-align: center;
+    float: none;
+  }
+  .quote h5{
+    font-size: 14px;
+    min-width: 200px;
+  }
+  .image{
+    width: 100%;
+    height: 100%;
+  }
+  .image-caption {
+  color: white;
+  margin-right: 100px; 
+  opacity: 0;
+  display: block;
+  background: rgba(10, 64, 134, 0.6);
+  position: absolute;
+  bottom: 0;
+  width: 92%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+}
+
+/*-------------------------------*/
+
+
+@media (max-width: 480px) {
+  div.input-group{
+    width: 200px;
+    float: right;
+  }
+  .image{
+    width: 100%;
+    height: 100%;
+  }
+}
+

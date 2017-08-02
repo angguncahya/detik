@@ -1,0 +1,77 @@
+
+@media screen and (max-width: 767px) {
+  .subtext{
+    min-width: 450px;
+  }
+  ul{
+    padding: 0
+  }
+  .foo-right {
+    font-size: 12px; 
+  }
+  .dom {
+    width: 100%;
+    height: 170px;
+    padding: 5px;
+  }
+  .foo-left p{
+    font-size: 12px;
+  }
+  .control-h {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 25px;
+    /*max-width: auto;*/
+    color: rgb(48, 48, 48);
+  }
+  .section-subtitle{
+    /*display: none;*/
+    font-size: 10px;
+  }
+  .list-style{
+    color: rgb(75, 75, 75);
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+  }
+  .wrapper{
+    object-fit: cover;
+    object-position: center;
+    margin:  20px auto;
+    position:relative;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .video {
+    width: 100%;
+    box-shadow: 0px 6px 12px 0px #969696;
+  }
+  .shade{
+    width: 100%;
+    left: 0;
+  }
+  header {
+    min-height: 50%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 10px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 13px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    #DirectoryIndex index.php
+	RewriteEngine On
+    RewriteBase /detik/
+
+    RewriteCond %{REQUEST_URI} ^system.*
+    RewriteRule ^(.*)$ index.php/$1 [L]
+
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [PT,L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 /index.php
+</IfModule>

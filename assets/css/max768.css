@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  .service-box img{
+    /*width: 30%;*/
+  }
+  .service-karir{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: default;
+    height: auto;
+    padding-bottom: 10px;
+    background: #fff;
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-left: 10px;
+    min-width: 300px;
+  }
+  header .header-content .header-content-inner h2 {
+    font-weight: 700; 
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 45px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 12px;
+    max-width: 160%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dom{
+  width: 100%;
+  height: 140px;
+  }
+  .img-karir{
+    display: none;
+  }
+  header {
+    height: 70%;
+  }
+  .control-h{
+    font-size: 25px;
+    /*max-width: 530px;*/
+    color: rgb(48, 48, 48);
+  }
+
+  /*.arrow{
+    display: none;
+  }*/
+  .main-logo {
+    max-width: 150px;
+  }
+  .navbar-brand {
+    padding:5px 0;
+  }
+  .navbar.navbar-default{
+    padding: 10px 50px;
+  }
+  .navbar-default {
+    padding: 10px 50px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 12px;
+  }
+  .navbar-page{
+    background-color: #fff;
+  }
+  .navbar-page .nav > li > a{
+    color: #000;
+  }
+  ul.social-buttons > li > a {
+    width: 10%;
+  }
+  p.foole{
+    display: none; 
+  }
+  h2.foole{
+    display: none; 
+  }
+}

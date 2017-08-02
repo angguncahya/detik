@@ -1,0 +1,36 @@
+bagian yang bisa di replace otomatis-> yang ada "#" nya mas hehe
+
+//nama_template : DK_APP_INVITE
+
+//subjek : #TEST# Invitation for #POSITION# Detikcom
+
+//konten :
+
+<p>PT Agranet Multicitra Siberkom is the holding company of <a href="http://www.detik.com,">www.detik.com,</a> Indonesia's leading online&nbsp;<span style="line-height: 1.5em;">media &amp; internet service industries namely news, lifestyle &amp; entertainment.&nbsp;</span></p>
+
+<p>Dear #APPLICANT#,</p>
+
+<p>Thank you for your application for the above position. The panel has assessed for all application and we would like to invite you to attend a #TEST#</p>
+
+<p>These are the details of your interview:</p>
+
+<p>Date : #DAY#, #DATE#</p>
+
+<p>Time : #TIME#</p>
+
+<p>Place : PT Agranet Multicitra Siberkom (www.detik.com)</p>
+
+<p>Aldevco Octagon Buliding 2nd Fl. Jl Warung Jati Barat Raya No. 75 Jakarta Selatan</p>
+
+<p>(in front of "Halte Busway Buncit Indah" &amp; Pizza Hut Buncit/ map here)</p>
+
+<p>Interviewer : #INTERVIEWER#</p>
+
+<p>Kindly reply this email, with contains of your availability to attend the interview. For further information,&nbsp;please call 021-794 1177 / HP 0819 0819 4100</p>
+
+<p>Best Regards,</p>
+
+<p>#ADMIN#</p>
+
+<p>Human Capital</p>
+</p>

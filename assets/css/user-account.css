@@ -1,0 +1,176 @@
+/*css user-account*/
+.glyph-l{
+  margin-right: 15px;
+}
+span  > a {
+  color: #bababa;
+}
+span  > a:hover {
+  color: #8c8c8c;
+}
+section#profil-saya .srv-left-box > ul > .active-1 {
+  background-color: rgb(231, 231, 231);
+  border-left: 4px solid #007fee;
+  padding-left: 36px;
+  color: #007fee;
+}
+section#riwayat-pendidikan .srv-left-box > ul > .active-2 {
+  background-color: rgb(231, 231, 231);
+  border-left: 4px solid #007fee;
+  padding-left: 36px;
+  color: #007fee;
+}
+section#riwayat-pekerjaan .srv-left-box > ul > .active-3 {
+  background-color: rgb(231, 231, 231);
+  border-left: 4px solid #007fee;
+  padding-left: 36px;
+  color: #007fee;
+}
+section#riwayat-pelamar .srv-left-box > ul > .active-4 {
+  background-color: rgb(231, 231, 231);
+  border-left: 4px solid #007fee;
+  padding-left: 36px;
+  color: #007fee;
+}
+section#upload-resume .srv-left-box > ul > .active-5 {
+  background-color: rgb(231, 231, 231);
+  border-left: 4px solid #007fee;
+  padding-left: 36px;
+  color: #007fee;
+}
+/*-- Box Kiri --*/
+.srv-left-box{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.srv-left-box > ul > li {
+  padding: 20px 40px;
+  clear: both;
+  cursor: pointer;
+}
+.srv-left-box > ul > li > a {
+  color: #262626;
+}
+.srv-left-box > ul > li > a:hover {
+  color: #007fee;
+}
+.srv-left-box > ul > li:hover {
+  background-color: rgb(240, 240, 240);
+  border-left: 4px solid #007fee;
+  padding-left: 36px;
+  color: #007fee;
+}
+.menu-list{
+  list-style: none;
+  padding: 0;
+}
+.pp-box{
+  padding: 10px;
+  height: 100px;
+  border-left: 4px solid #ddd;
+}
+.pp-small{
+  margin-right: 10px;
+  max-width: 80px;
+  float: left;
+}
+.profil-name{
+  position: relative;
+  top: 30%;
+  display: block;
+  font-size: 13px;
+  max-width: 220px;
+}
+.to_profil{
+  position: relative;
+  top: 40%;
+  display: block;
+  font-size: 10px;
+}
+.title-menu-left{
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  text-align: center;
+  padding: 14px 0;
+  margin: 0;
+}
+
+/*-- Box Kanan --*/
+.srv-right-box{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.srv-right-box p {
+  color: #202020;
+}
+.srv-right-box > ul > li {
+  padding: 0;
+}
+.section-profil{
+  padding: 20px 40px;
+  /*background-color: red;*/
+}
+.section-profil > p {
+  margin: 5px;
+}
+.namespace{
+  font-size: 20px;
+}
+.detail-info{
+  display: inline;
+}
+.info-separator{
+  margin: 0 10px;
+  color: #ddd;
+}
+.pp-big{
+  margin-right: 20px;
+  max-width: 120px;
+  float: left;
+}
+.subtitle-profil{
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.job-title{
+  font-size: 18px;
+}
+.tanggal-x{
+  font-size: 12px;
+  color: #989898;
+  padding-bottom: 10px;
+  float: right;
+}
+table.experience{
+  list-style: none;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.dt-right{
+  float: left;
+}
+.left-raw{
+  font-size: 12px;
+  color: #989898;
+  width: 200px;
+}
+.confirmation{
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 10px;
+  background: #ff9800;
+}
+.accept{
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 10px;
+  background: rgb(69, 176, 14);
+}

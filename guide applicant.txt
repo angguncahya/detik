@@ -1,0 +1,8 @@
+1. Unprocess -> semua applicant dengan semua status; status->unprocess, shortlist, next test, accepted, dan blacklist 
+(hanya bisa ke shortlist dan blacklist)
+2. Shortlist -> applicant yang telah difilter oleh hrd secara manual untuk tes selanjutnya(bisa ke next test dan blacklist)
+3. Next Tes -> applicant difilter oleh hrd untuk bisa di accept, next test->hrd bisa masukan nilai tiap tahap tes, 
+bentuknya table biasa aja trus ada nilai masing2 test untuk user, bisa add tapi masuk ke acceptednya masih manual melalui hrd
+(bisa accepted atau blacklist)
+4. Accepted -> appicant yang yang udah diterima (gabisa kemana mana gabisa juga diblacklist)
+5. Blacklist -> aplicant yang udah di blacklist dari tahap2 sebelumnya.
