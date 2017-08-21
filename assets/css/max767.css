@@ -7,12 +7,16 @@
     padding: 0
   }
   .foo-right {
-    font-size: 12px; 
+    font-size: 12px;
+  }
+  .detik-footer{
+    display: none;
   }
   .dom {
     width: 100%;
     height: 170px;
     padding: 5px;
+    object-fit: cover;
   }
   .foo-left p{
     font-size: 12px;
@@ -26,7 +30,7 @@
   }
   .section-subtitle{
     /*display: none;*/
-    font-size: 10px;
+    font-size: 12px;
   }
   .list-style{
     color: rgb(75, 75, 75);

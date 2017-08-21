@@ -389,6 +389,7 @@ hr.vertical{
 .dom{
   width: 380px;
   height: 200px;
+  object-fit: cover;
 }
 
 .portfolio-box {
@@ -739,6 +740,19 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   padding: 15px 30px;
+}
+.load-more:hover{
+  background-color: rgba(255,255,255,0.9);
+  transition: 500ms all-ease;
+}
+.load-more {
+  position: relative;
+  top: 40px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 7px; 
+  color: #0c4ea3;
+  font-size: 14px;
 }
 
 

@@ -37,7 +37,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/min768.css')?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/min601.css')?>">
 
-
 </head>
 
 <body id="page-top">
@@ -141,6 +140,11 @@
                     endforeach;
                   ?>
             </div>
+
+            <div class="col-md-12 text-center">
+              <a class="load-more" href="<?php echo base_url('home/gallery')?>">LOAD MORE</a>
+            </div>
+          
           </div>
         </div>
     </section>
@@ -152,7 +156,7 @@
             <div class="col-lg-12 title">
               <ul>
                 <li class="col-md-2 col-sm-12 text-center"><h2 class="section-title"><b>Detikvalues</b></h2></li>
-                <li class="col-md-9 col-sm-12"><p class="section-subtitl">Our Values at Work on being a detikcom employees. Some companies manage by rules. Some by hierarchies.detikcom manages by its values. In the end, detikcom determined that our actions will be driven by these values:</p></li>
+                <li class="col-md-9 col-sm-12"><p class="section-subtitle">Our Values at Work on being a detikcom employees. Some companies manage by rules. Some by hierarchies.detikcom manages by its values. In the end, detikcom determined that our actions will be driven by these values:</p></li>
                 <li class="list-title section-float-right"><img class=" col-md-1 section-icon" src="<?php echo base_url('assets/img/icon-value.png')?>" alt=""></li>
               </ul>
             </div>

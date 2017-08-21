@@ -2,5 +2,9 @@
   .texto{
     display: none;
   }
+  .recruitment {
+  	color: red;
+    display: none;
+  } 
 }
  

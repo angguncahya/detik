@@ -52,10 +52,16 @@
   animation-direction: alternate/*reverse,normal*/;
   animation-fill-mode: forwards/*backward, none*/;
   animation-play-state: running;
-}
+  }
   .service-karir{
     margin-left: 0;
     margin-right: 0;
+  }
+  .detik-footer {
+    display: none;
+  }
+  .foo-left p {
+    font-size: 10px; 
   }
 }
 .list-title{
